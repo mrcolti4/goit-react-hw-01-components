@@ -7,7 +7,6 @@ import {
   ProfileStat,
   ProfileStatItem,
 } from './Profile.styled';
-import { StatListItem } from 'components/common/ListItem/ListItem';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
